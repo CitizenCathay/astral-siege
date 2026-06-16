@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\AudioConfigLoader.cpp" />
+    <ClCompile Include="..\Source\AudioManager.cpp" />
+    <ClCompile Include="..\Source\AudioPlayer.cpp" />
+    <ClCompile Include="..\Source\BackButton.cpp" />
+    <ClCompile Include="..\Source\Background.cpp" />
+    <ClCompile Include="..\Source\Bullet.cpp" />
+    <ClCompile Include="..\Source\Camera.cpp" />
+    <ClCompile Include="..\Source\CoinAnimation.cpp" />
+    <ClCompile Include="..\Source\CreditsScreen.cpp" />
+    <ClCompile Include="..\Source\CurrencyManager.cpp" />
+    <ClCompile Include="..\Source\DifficultyManager.cpp" />
+    <ClCompile Include="..\Source\EnemyBullet.cpp" />
+    <ClCompile Include="..\Source\EnemyConfigLoader.cpp" />
+    <ClCompile Include="..\Source\EnemyFactory.cpp" />
+    <ClCompile Include="..\Source\EnemyManager.cpp" />
+    <ClCompile Include="..\Source\ExplosionManager.cpp" />
+    <ClCompile Include="..\Source\Game.cpp" />
+    <ClCompile Include="..\Source\GameObject.cpp" />
+    <ClCompile Include="..\Source\GameOver.cpp" />
+    <ClCompile Include="..\Source\GameStateManager.cpp" />
+    <ClCompile Include="..\Source\GameWin.cpp" />
+    <ClCompile Include="..\Source\GravitySystem.cpp" />
+    <ClCompile Include="..\Source\HUD.cpp" />
+    <ClCompile Include="..\Source\Level.cpp" />
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\MainMenu.cpp" />
+    <ClCompile Include="..\Source\MainMenuObjects.cpp" />
+    <ClCompile Include="..\Source\MeshManager.cpp" />
+    <ClCompile Include="..\Source\Missle.cpp" />
+    <ClCompile Include="..\Source\OptionsMenu.cpp" />
+    <ClCompile Include="..\Source\OuterPlanetManager.cpp" />
+    <ClCompile Include="..\Source\Particles.cpp" />
+    <ClCompile Include="..\Source\PauseButton.cpp" />
+    <ClCompile Include="..\Source\Player.cpp" />
+    <ClCompile Include="..\Source\Shield.cpp" />
+    <ClCompile Include="..\Source\SplashScreen.cpp" />
+    <ClCompile Include="..\Source\Stars.cpp" />
+    <ClCompile Include="..\Source\TransitionManager.cpp" />
+    <ClCompile Include="..\Source\TutorialsMenu.cpp" />
+    <ClCompile Include="..\Source\UIManager.cpp" />
+    <ClCompile Include="..\Source\Utils.cpp" />
+    <ClCompile Include="..\Source\Vector.cpp" />
+    <ClCompile Include="..\Source\Weapon.cpp" />
+    <ClCompile Include="..\Source\Enemy.cpp" />
+    <ClCompile Include="..\Source\WeaponManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\AudioConfigLoader.hpp" />
+    <ClInclude Include="..\Header\AudioManager.hpp" />
+    <ClInclude Include="..\Header\AudioPlayer.hpp" />
+    <ClInclude Include="..\Header\BackButton.hpp" />
+    <ClInclude Include="..\Header\CoinAnimation.hpp" />
+    <ClInclude Include="..\Header\CoinTextAnimation.hpp" />
+    <ClInclude Include="..\Header\DifficultyManager.hpp" />
+    <ClInclude Include="..\Header\Enemy.hpp" />
+    <ClInclude Include="..\Header\EnemyBullet.hpp" />
+    <ClInclude Include="..\Header\Background.hpp" />
+    <ClInclude Include="..\Header\Bullet.hpp" />
+    <ClInclude Include="..\Header\Camera.hpp" />
+    <ClInclude Include="..\Header\CurrencyManager.hpp" />
+    <ClInclude Include="..\Header\EnemyConfigLoader.hpp" />
+    <ClInclude Include="..\Header\EnemyFactory.hpp" />
+    <ClInclude Include="..\Header\EnemyManager.hpp" />
+    <ClInclude Include="..\Header\ExplosionManager.hpp" />
+    <ClInclude Include="..\Header\Game.hpp" />
+    <ClInclude Include="..\Header\GameObject.hpp" />
+    <ClInclude Include="..\Header\GameOver.hpp" />
+    <ClInclude Include="..\Header\GameStateManager.hpp" />
+    <ClInclude Include="..\Header\GameStateList.hpp" />
+    <ClInclude Include="..\Header\GameWin.hpp" />
+    <ClInclude Include="..\Header\GravitySystem.hpp" />
+    <ClInclude Include="..\Header\HUD.hpp" />
+    <ClInclude Include="..\Header\Level.hpp" />
+    <ClInclude Include="..\Header\MainMenu.hpp" />
+    <ClInclude Include="..\Header\MainMenuObjects.hpp" />
+    <ClInclude Include="..\Header\MeshManager.hpp" />
+    <ClInclude Include="..\Header\Missle.hpp" />
+    <ClInclude Include="..\Header\OptionsMenu.hpp" />
+    <ClInclude Include="..\Header\OuterPlanetManager.hpp" />
+    <ClInclude Include="..\Header\Particles.hpp" />
+    <ClInclude Include="..\Header\PauseButton.hpp" />
+    <ClInclude Include="..\Header\Player.hpp" />
+    <ClInclude Include="..\Header\Shield.hpp" />
+    <ClInclude Include="..\Header\SplashScreen.hpp" />
+    <ClInclude Include="..\Header\Stars.hpp" />
+    <ClInclude Include="..\Header\TransitionManager.hpp" />
+    <ClInclude Include="..\Header\TutorialsMenu.hpp" />
+    <ClInclude Include="..\Header\UIManager.hpp" />
+    <ClInclude Include="..\Header\Utils.hpp" />
+    <ClInclude Include="..\Header\Vector.hpp" />
+    <ClInclude Include="..\Header\Weapon.hpp" />
+    <ClInclude Include="..\Header\WeaponManager.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2f859348-ea77-419d-9391-5934d28d72dd}</ProjectGuid>
+    <RootNamespace>AstralSiege</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)Extern\AlphaEngine\include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)Extern\AlphaEngine\lib</LibraryPath>
+    <OutDir>$(SolutionDir)bin\$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir).tmp\$(Configuration)-$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)Extern\AlphaEngine\include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)Extern\AlphaEngine\lib</LibraryPath>
+    <OutDir>$(SolutionDir)bin\$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir).tmp\$(Configuration)-$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Alpha_EngineD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Assets\*" "$(OutDir)Assets\" /s /r /y /q
+xcopy "$(SolutionDir)Extern\AlphaEngine\lib\freetype.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(SolutionDir)Extern\AlphaEngine\lib\Alpha_EngineD.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(SolutionDir)Extern\AlphaEngine\lib\fmodL.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(SolutionDir)Extern\AlphaEngine\lib\fmodL.dll" "$(OutDir)" /s /r /y /q</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Alpha_Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Assets\*" "$(OutDir)Assets\" /s /r /y /q
+xcopy "$(SolutionDir)Extern\AlphaEngine\lib\freetype.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(SolutionDir)Extern\AlphaEngine\lib\Alpha_Engine.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(SolutionDir)Extern\AlphaEngine\lib\fmod.dll" "$(OutDir)" /s /r /y /q</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

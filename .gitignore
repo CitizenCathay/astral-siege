@@ -1,0 +1,73 @@
+# Build output
+bin/
+out/
+build/
+x64/
+x86/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# Intermediate files
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.idb
+*.ipdb
+*.iobj
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.tmp/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docview
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.ipch
+
+# CMake (in case of switch)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Compiled shader binaries (keep .glsl/.hlsl source, ignore compiled)
+*.cso
+*.fxo
+
+# OS garbage
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Crash dumps
+*.dmp
+*.stackdump

@@ -1,0 +1,60 @@
+{
+  "audio": [
+    {
+      "name": "gameTheme",
+      "filepath": "Assets/Audio/bg_music.wav",
+      "isMusic": true,
+      "defaultVolume": 1.0,
+      "defaultPitch": 1.0
+    },
+    {
+      "name": "sfx_coin_collect",
+      "filepath": "Assets/Audio/coin_pickup.wav",
+      "isMusic": false,
+      "defaultVolume": 1.0,
+      "defaultPitch": 1.0
+    },
+    {
+      "name": "sfx_kill_enemy",
+      "filepath": "Assets/Audio/enemydie.wav",
+      "isMusic": false,
+      "defaultVolume": 1.0,
+      "defaultPitch": 1.0
+    },
+    {
+      "name": "sfx_take_damage",
+      "filepath": "Assets/Audio/take_damage.wav",
+      "isMusic": false,
+      "defaultVolume": 0.6,
+      "defaultPitch": 1.0
+    },
+    {
+      "name": "sfx_lose",
+      "filepath": "Assets/Audio/death.wav",
+      "isMusic": false,
+      "defaultVolume": 1.0,
+      "defaultPitch": 1.0
+    },
+    {
+      "name": "sfx_win",
+      "filepath": "Assets/Audio/win.wav",
+      "isMusic": false,
+      "defaultVolume": 1.0,
+      "defaultPitch": 1.0
+    },
+    {
+      "name": "sfx_purchase",
+      "filepath": "Assets/Audio/purchase.wav",
+      "isMusic": false,
+      "defaultVolume": 1.0,
+      "defaultPitch": 1.0
+    },
+    {
+      "name": "sfx_weapon_shoot",
+      "filepath": "Assets/Audio/weaponshoot.mp3",
+      "isMusic": false,
+      "defaultVolume": 1.0,
+      "defaultPitch": 1.0
+    }
+  ]
+}

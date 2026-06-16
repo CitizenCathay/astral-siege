@@ -1,0 +1,54 @@
+{
+  "enemies": [
+    {
+      "type": "base_enemy",
+      "health": 10,
+      "speed": 80,
+      "shootInterval": 2.0,
+      "mesh": "enemy_base",
+      "moveBehavior": "default",
+      "shootBehavior": "default",
+      "currencyReward": 5
+    },
+    {
+      "type": "base_enemy_fast",
+      "health": 20,
+      "speed": 80,
+      "shootInterval": 2.0,
+      "mesh": "enemy_base",
+      "moveBehavior": "fast",
+      "shootBehavior": "default",
+      "currencyReward": 10
+    },
+    {
+      "type": "base_enemy_dodge",
+      "health": 20,
+      "speed": 130,
+      "shootInterval": 2.0,
+      "mesh": "enemy_base",
+      "moveBehavior": "dodge",
+      "shootBehavior": "default",
+      "currencyReward": 10
+    },
+    {
+      "type": "spread_shooter_default",
+      "health": 50,
+      "speed": 60,
+      "shootInterval": 2.0,
+      "mesh": "enemy_spread",
+      "moveBehavior": "default",
+      "shootBehavior": "spread",
+      "currencyReward": 20
+    },
+    {
+      "type": "spread_shooter_dodge",
+      "health": 50,
+      "speed": 60,
+      "shootInterval": 3.0,
+      "mesh": "enemy_spread",
+      "moveBehavior": "dodge",
+      "shootBehavior": "spread",
+      "currencyReward": 20
+    }
+  ]
+}
