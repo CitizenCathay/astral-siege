@@ -1,6 +1,6 @@
 # Astral Siege
 
-A game developed for CSD1451 Software Engineering Project 2 at DigiPen Institute of Technology.
+A game developed for CSD1451 Software Engineering Project II at DigiPen Institute of Technology.
 
 ## Building
 
@@ -16,17 +16,25 @@ Open `AstralSiege.sln` in Visual Studio and build the solution.
 
 ## About
 
-Brief 1-2 sentence description
+Astral Siege is a fast-paced tower defense game where humanity's last line of defense 
+is you. Place turrets, aim your weapons, and unleash bullets and missiles against relentless 
+waves of alien enemies. Manage your currency wisely, account for gravity when you shoot, and 
+hold the line across 3 increasingly brutal levels. Destroy enough enemies, upgrade your 
+telescope, and push the alien horde back before it's too late.
 
 ## Built With
 
 - C++
 - DigiPen's Alpha Engine
-- Visual Studio
+- Visual Studio 2022
 
 ## How to Run
 
-Steps to run the game if building isn't straightforward — e.g. any dependencies, required DLLs, etc.
+**Option 1 - Run directly:**
+Open `bin/` and run the `.exe`
+
+**Option 2 - Build from source:**
+Open `AstralSiege.sln` in Visual Studio and press `Ctrl+F5` to build and run.
 
 ## Acknowledgements
 
