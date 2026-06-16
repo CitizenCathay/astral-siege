@@ -1,6 +1,6 @@
 # Astral Siege
 
-A game developed for CSD1451 Software Engineering Project II at DigiPen Institute of Technology.
+A game developed for the module Software Engineering Project II (CSD1451) at DigiPen Institute of Technology.
 
 ## Building
 
@@ -10,7 +10,7 @@ Open `AstralSiege.sln` in Visual Studio and build the solution.
 
 - Choi Meng Yew
 - Guok Yi Yong
-- Lee Shi Bin Javier
+- Javier Lee Shi Bin
 - Chloe Lau Rey En
 - Celeste Tong Jia Xuan
 
