@@ -24,9 +24,8 @@ telescope, and push the alien horde back before it's too late.
 
 ## Screenshots
 
-![Gameplay](Images/gameplay1.png)
-![Gameplay](Images/gameplay2.png)
-![Gameplay](Images/gameplay3.png)
+<img src="Images/gameplay1.png" width="600"/>
+<img src="Images/gameplay2.png" width="600"/>
 
 ## Built With
 
