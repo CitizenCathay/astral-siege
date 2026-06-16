@@ -22,6 +22,12 @@ waves of alien enemies. Manage your currency wisely, account for gravity when yo
 hold the line across 3 increasingly brutal levels. Destroy enough enemies, upgrade your 
 telescope, and push the alien horde back before it's too late.
 
+## Screenshots
+
+![Gameplay](Images/gameplay1.png)
+![Gameplay](Images/gameplay2.png)
+![Gameplay](Images/gameplay3.png)
+
 ## Built With
 
 - C++
