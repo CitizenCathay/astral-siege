@@ -16,11 +16,12 @@ Open `AstralSiege.sln` in Visual Studio and build the solution.
 
 ## About
 
-Astral Siege is a fast-paced tower defense game where humanity's last line of defense 
-is you. Place turrets, aim your weapons, and unleash bullets and missiles against relentless 
-waves of alien enemies. Manage your currency wisely, account for gravity when you shoot, and 
+Astral Siege is a physics-driven tower defense game where mastering gravity is just as 
+important as pulling the trigger. Battle relentless waves of alien enemies across 3 levels, 
+but your bullets and missiles don't fly straight. Vector fields and gravitational forces 
+bend every shot. Manage your currency wisely, account for gravity when you shoot, and 
 hold the line across 3 increasingly brutal levels. Destroy enough enemies, upgrade your 
-telescope, and push the alien horde back before it's too late.
+telescope, and push the alien horde back before it's too late!
 
 ## Screenshots
 
